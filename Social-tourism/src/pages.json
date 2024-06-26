@@ -1,0 +1,170 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/homePage/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalInformation/index",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/circleOfFriends/index",
+			"style": {
+				"navigationBarTitleText": "网友分享",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/circleOfFriends/reply/reply",
+			"style": {
+				"navigationBarTitleText": "全部回复",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/circleOfFriends/addReply/addReply",
+			"style": {
+				"navigationBarTitleText": "发表评论",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/recommend/index",
+			"style": {
+				"navigationBarTitleText": "旅游推荐",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalInformation/Login&Register/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalInformation/Login&Register/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalInformation/list/userInfo/userInfo",
+			"style": {
+				"navigationBarTitleText": "我的信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalInformation/list/Space/Space",
+			"style": {
+				"navigationBarTitleText": "旅游进度",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/personalInformation/list/myFriend/myFriend",
+			"style": {
+				"navigationBarTitleText": "我的好友",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "components/bg/bg",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/homePage/LUG/LUG",
+			"style": {
+				"navigationBarTitleText": "旅游城市",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "components/homeForm/homeForm",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/homePage/loading/loading",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/homePage/LUG/inDetail/inDetail",
+			"style": {
+				"navigationBarTitleText": "详细介绍",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/homePage/LUG/inDetail/recommendedRoute/recommendedRoute",
+			"style": {
+				"navigationBarTitleText": "推荐",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/recommend/details/details",
+			"style": {
+				"navigationBarTitleText": "推荐详情",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		// 导航栏标题颜色及状态栏前景颜色，仅支持 black/white
+		"navigationBarTextStyle": "black",
+		// 导航栏标题文字内容
+		"navigationBarTitleText": "配置底部导航栏",
+		// 导航栏背景颜色（同状态栏背景色）
+		"navigationBarBackgroundColor": "#55aaff",
+		// 下拉显示出来的窗口的背景色
+		"backgroundColor": "#ffff7f"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/homePage/index",
+				"iconPath": "static/font/home.png",
+				"selectedIconPath": "static/font/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/recommend/index",
+				"iconPath": "static/font/recommend.png",
+				"selectedIconPath": "static/font/recommend.png",
+				"text": "旅游推荐"
+			},
+			{
+				"pagePath": "pages/circleOfFriends/index",
+				"iconPath": "static/font/message.png",
+				"selectedIconPath": "static/font/message.png",
+				"text": "网友分享"
+			},
+			{
+				"pagePath": "pages/personalInformation/index",
+				"iconPath": "static/font/person.png",
+				"selectedIconPath": "static/font/person.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}
